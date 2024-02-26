@@ -13,8 +13,9 @@ while not guessed:
  if guess < random_number:
   print ("Lower than 0, try once again!")
   elif guess > random_number: 
-  print ("Higher than 100, give it another try!")
-else:
-print ("Wow! You guessed it right")
-guessed = True
+  print ("Higher than 100, give it another try!")\
+ else:
+  print ("Wow! You guessed it right")
+   guessed = True
 
+guess_number ()
