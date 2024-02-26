@@ -16,8 +16,8 @@ while not guessed:                                                 # start a whi
   print ("Higher than 100, give it another try!")                  # informing 2
  else:                                                             # if correct 
   print ("Wow! You guessed it right")                              # informing 3
-   guessed = True                                                  # setting guess to true to e xit the while  loop 
+   guessed = True                                                  # setting guess to true to exit the while  loop 
 
 
-if __name__ == "__main__"                                          # pyhton check if script is running directly not from the module  , if yes then the name is set to the name of module 
+if __name__ == "__main__"                                          # pyhton check if the script is running directly not from the module, if yes then the name is set to the name of module 
 guess_number ()                                                    # call the guess_number func to start the game
