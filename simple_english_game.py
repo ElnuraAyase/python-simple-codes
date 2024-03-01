@@ -2,7 +2,7 @@ def display_word(word, guessed_letters):
   display = ""
   for letter in word:
     if letter in guessed_letters:
-      display =+ letter
+      display += letter
       else :
       display += "-"
     return display
@@ -12,3 +12,5 @@ def display_word(word, guessed_letters):
     guessed_letters = []
     attempts = 5 
   
+while True:
+  print( "\nWord to guess: ", display_word(word_to_guess, guessed_letters))
