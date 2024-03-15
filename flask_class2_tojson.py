@@ -13,3 +13,10 @@ def add_numbers():
         result = data['num1'] + data['num2']
         # Return the result as a JSON response
         return jsonify({'result': result}), 200
+
+    else:
+        # If 'num1' or 'num2' is missing, return an error message
+        return jsonify({'error': 'Please provide both num1 and num2.'}), 400
+
+if __name__ == '__main__':
+    app.run(debug=True)  # Run the Flask application in debug mode if the script is executed directly
