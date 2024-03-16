@@ -21,3 +21,15 @@ def hello(name):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Welcome to the homepage!</h1>
+</body>
+</html>
+
