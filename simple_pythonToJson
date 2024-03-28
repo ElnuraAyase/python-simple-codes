@@ -12,3 +12,9 @@ def read_from_json(filename):
     return data
 
 
+# Sample data to write to the JSON file
+sample_data = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
