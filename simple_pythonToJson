@@ -18,3 +18,10 @@ sample_data = {
     "age": 30,
     "city": "New York"
 }
+# Write the sample data to a JSON file
+write_to_json(sample_data, 'data.json')
+
+# Read data from the JSON file and display it
+read_data = read_from_json('data.json')
+print("Data read from JSON file:")
+print(read_data)
