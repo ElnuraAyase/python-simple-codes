@@ -1,1 +1,14 @@
+import json
+
+# Function to write data to a JSON file
+def write_to_json(data, filename):
+    with open(filename, 'w') as json_file:
+        json.dump(data, json_file, indent=4)
+
+# Function to read data from a JSON file
+def read_from_json(filename):
+    with open(filename, 'r') as json_file:
+        data = json.load(json_file)
+    return data
+
 
