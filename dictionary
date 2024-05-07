@@ -1,1 +1,3 @@
-
+student = {"name": "John", "age": 25, "grade": "A"}
+student["age"] = 26
+student["city"] = "New York"
