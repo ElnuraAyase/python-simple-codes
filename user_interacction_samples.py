@@ -20,3 +20,5 @@ print(todos)
 # add info about type of value associated with variable (string,int or list ,etc.) 
 print(type(todos) # output will be <class 'list>
 print (type(user_prompt) # output will be < class  'str'>
+
+#automate the todos
