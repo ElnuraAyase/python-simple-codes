@@ -1,0 +1,13 @@
+'''
+The connection between food and fruits happens when fruits is passed as an argument to my_function.
+food is a placeholder (parameter) in the function definition. When you call the function with fruits,
+food temporarily "points" to the same data as fruits.
+'''
+
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
